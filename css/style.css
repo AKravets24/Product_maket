@@ -1,0 +1,625 @@
+body {
+    font-family: "Arial MT";
+    background-color: white;
+}
+
+.container {
+
+    height: 2863px;
+    width: 1280px;
+/*    width: 100%;*/
+    margin: 0 auto;
+}
+
+.main_header {
+    height: 323px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: #688198;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+.main_header_h1 {
+
+    width: 367px;
+    font-weight: 400;
+    line-height: 0px;
+    font-size: 60px;
+}
+
+.main_header_ul {
+    width: 542px;
+    height: 127px;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 43px;
+    list-style-image: url(../img/icons/check_icon.png);
+}
+
+.main_header img {
+    float: right;
+    margin-right: 50px;
+    margin-left: 129px;
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 49px;
+    padding-left: 50px;
+    height: 350px;
+}
+
+article {
+    float: left;
+}
+
+article h2 {
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+article p {
+    width: 609px;
+    height: 63px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+article p:nth-child(2) {
+    margin-top: 30px;
+}
+
+article p:nth-child(3) {
+    margin-top: 40px;
+}
+
+.about img {
+    margin-top: 35px;
+    margin-left: 142px;
+}
+
+/*Block Dignity*/
+
+.dignity {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #445161;
+    font-weight: 400;
+    line-height: 1, 2;
+    margin-bottom: 24px;
+
+}
+
+.dignity-list {
+    width: 540px;
+    float: left;
+    list-style-type: none;
+    padding: 0 0 0 36px;
+    margin: 0px;
+}
+
+.dignity-list:nth-child(3) {
+    float: right;
+}
+
+.dignity-list-item {
+    margin-bottom: 40px;
+    /*    height: 63px;*/
+    height: auto;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 15px;
+    position: relative;
+
+}
+
+.dignity-list:nth-child(2) > .dignity-list-item:nth-child(3),
+.dignity-list:nth-child(3) > .dignity-list-item:nth-child(3) {
+    margin: 0px;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: -35px;
+}
+
+
+/*Block Screenshots"*/
+
+.screenshots {
+    margin-top: 51px;
+    height: 487px;
+}
+
+.screenshots h2 {
+    text-align: center;
+    height: 22px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 1280px;
+    margin-bottom: 35px;
+}
+
+.screenshots img {
+    float: left;
+    height: 150px;
+    width: 200px;
+}
+
+.screenshots h3 {
+    width: 290px;
+    height: 10px;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 215px;
+}
+
+.screenshots p {
+    margin-left: 215px;
+    width: 340px;
+    height: 108px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: auto;
+}
+
+.pictures_right {
+    float: right;
+    margin: -23px 0 0 20px;
+
+}
+
+
+/*Block Review*/
+
+.boofer {
+    clear: both;
+}
+
+.reviews {
+    height: 424px;
+    background-color: #f5f5f5;
+    clear: both;
+    display: inline-block;
+}
+
+.reviews h2 {
+    width: 1280px;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 0px;
+    margin: 50px 0 40px 0;
+}
+
+.comments {
+    width: 554px;
+    margin-left: 50px;
+    margin-top: 35px;
+
+}
+
+.comments p {
+    width: 410px;
+    height: 64px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 108px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background-color: #ebebeb;
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.comments p:after {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 15px;
+    border: 10px solid transparent;
+    border-right: 20px solid #ebebeb;
+}
+
+.comments_left {
+    float: left;
+    width: 570px;
+    margin-top: -16px;
+}
+
+.comments_left img {
+    float: left;
+}
+
+.comments_right {
+   
+    margin-left: 600px;
+    width: 570px;
+
+}
+
+.comments_right img {
+    float: left;
+}
+
+.comments span {
+    width: 67px;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+/*Block buy it now*/
+
+.prices {
+    height: auto;
+    width: 100%;
+}
+
+.prices h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;    
+}
+
+.prices_block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.standart,
+.premium,
+.lux {
+    background-color: #445162;
+    width: 300px;
+    border-radius: 7px;
+    margin: 0 23px;
+}
+
+.standart h2,
+.premium h2,
+.lux h2 {
+    text-align: center;
+    height: 18px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.standart h3,
+.premium h3,
+.lux h3 {
+    text-align: center;
+    background-color: white;
+    height: 35px;
+    width: 98%;
+    margin: 0 auto;
+    color: #445162;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.standart ol,
+.premium ol,
+.lux ol {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.standart {
+    height: auto;
+    margin-top: 210px;
+}
+
+.premium {
+    height: auto;
+    margin-top: 115px;
+}
+
+.lux {
+    height: auto;
+    margin-top: 20px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+    
+    width: 260px;
+    height: 40px;
+    margin: -5px 0 20px 20px;
+    background-color: #ffffff;
+    color: #445161;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+    border-radius: 10px;
+    background-color: #445162;
+    line-height: 40px;
+    transition: 300ms;
+    font-size: 25px;
+    font-weight: 700;
+    width: 270px;
+    height: 46px;
+    margin: -3px 0 11px 15px;
+}
+
+.btn-1:hover {
+    border: 2px solid sandybrown;
+    color: sandybrown;
+}
+
+.btn-2:hover {
+    border: 2px solid silver;
+    color: silver;
+}
+
+.btn-3:hover {
+    border: 2px solid gold;
+    color: gold;
+}
+
+.btn-1:active,
+.btn-2:active,
+.btn-3:active {
+    background-color: white;
+}
+
+/*Block_contacts*/
+
+.contacts {
+    height: 509px;
+    background-color: #445162;
+    margin-top: 50px;
+}
+
+.contacts h2 {
+    padding-top: 52px;
+    text-align: center;
+    height: 22px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.text_element {
+    text-align: left;
+    height: 40px;
+    margin-bottom: 210px;
+}
+
+.text_element,
+.message {
+    margin-left: 249px;
+    margin-bottom: 21px;
+    width: 490px;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Arial - Bold MT";
+}
+
+.message {
+    resize: none;
+    height: 160px;
+    padding-top: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+    float: 
+}
+
+#send_button {
+    display: block;
+    float: left;
+    margin-left: 430px;
+    margin-top: 20px;
+    padding-top: 6px;
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial - Bold MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+}
+
+#send_button:hover {
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #445162;
+    line-height: 40px;
+    transition: 300ms;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    width: 140px;
+    height: 46px;
+    margin: 17px 0 -3px 430px;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+#send_button:active {
+    transition: 3000ms;
+    color: red;
+}
+
+.fbc {
+    margin-left: 855px;
+}
+
+.feedback_contacts {
+   
+    display: block;
+    margin-top: -330px;
+    width: 195px;
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.feedback_contacts li:nth-child(1) {
+    list-style-image: url(../img/icons/skype_icon.png)
+}
+
+.feedback_contacts li:nth-child(2) {
+    list-style-image: url(../img/icons/icq_icon.png)
+}
+
+.feedback_contacts li:nth-child(3) {
+    list-style-image: url(../img/icons/email_icon.png)
+}
+
+.feedback_contacts li:nth-child(4) {
+    list-style-image: url(../img/icons/phone_icon.png)
+}
+
+.feedback_contacts li {
+    list-style-type: none
+}
+
+.twitty {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background: url(../img/icons/tweetty.png) no-repeat center;
+}
+
+.facebook {
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    background: url(../img/icons/facebook.png) no-repeat center;
+}
+
+.linkedin {
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    background: url(../img/icons/linkedin.png) no-repeat center;
+}
+
+.google {
+    display: inline-block;
+    height: 42px;
+    width: 41px;
+    border-radius: 50%;
+    background: url(../img/icons/google.png) no-repeat center;
+}
+
+.youtube {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background: url(../img/icons/youtube.png) no-repeat center;
+}
+
+.twitty:hover {
+    background-color: #41abe1;
+}
+
+.facebook:hover {
+    background-color: #4267b2;
+}
+
+.linkedin:hover {
+    background-color: #2567b3;
+}
+
+.google:hover {
+    background-color: red;
+}
+
+.youtube:hover {
+    background-color: darkred;
+}
+
+.bottom p {
+    text-align: center;
+    line-height: 0px;
+    font-size: 12px;
+}
